@@ -1,0 +1,108 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #2e3b4e;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+/* Section Styling */
+#disposable_hide {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0f4f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#disposable_hide button {
+    margin-top: 15px;
+}
+
+#disposableParagraph {
+    font-size: 1.5em;
+    color: #333;
+    background-color: #e9e9e9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    button {
+        width: 90%;
+        padding: 12px 15px;
+        font-size: 1.1em;
+    }
+
+    #disposable_hide {
+        padding: 15px;
+    }
+}
